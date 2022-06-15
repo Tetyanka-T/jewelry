@@ -1,0 +1,393 @@
+body {
+  background-color: #F1F1F1;
+}
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+ }
+.container {
+  width: 100%;
+  padding: 0 15px;
+ }
+ .section-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.25;
+  color: #000000;
+  text-transform: uppercase;
+ }
+
+                                         /* header-section */
+.header-section__advt {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  text-align: center;
+  background-color: #D8BF95;
+}
+.header-section__menu {
+  display: flex;
+  padding: 35px;
+}
+.header-section__nav {
+display: flex;
+margin-right: auto;
+}
+.header-section__nav-list .header-section__nav-item {
+margin-right: 60px;
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 14px;
+line-height: 1.28;
+text-transform: uppercase;
+color: #000000;
+}
+.header-section__nav-list .header-section__nav-item:last-child {
+  margin-right: 0;
+}
+.heder-section__title {
+  margin-left: 300px;
+}
+
+.header-section__nav-list {
+  display: flex;
+}
+.header-section__list {
+  display: flex;
+}
+.header-section__list .header-section__list-item {
+  margin-right: 60px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: #000000;
+}
+.header-section__list .header-section__list-item:last-child {
+  margin-right: 0px;
+}
+                                 /* section-hero */
+
+.section-hero__list {
+  display: flex;
+  justify-content: center;
+}
+.section-hero__list-item {
+  position: relative;
+}
+.section-hero__list-describe {
+  position: absolute;
+  bottom: 20px;
+  left: 40px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+                                /* section-discribe */
+.section-discribe {
+  padding-top: 116px;
+}                             
+.section-discribe__cont {
+  display: flex;
+  
+}
+.section-discribe__title {
+  margin-right: auto;
+  max-width: 860px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1.2;
+  margin-bottom: 31px;
+}
+.section-discribe__text {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.25;
+  font-size: 20px;
+  color: #000000;
+}
+
+                                /* .section-newArrivals */
+.section-newArrivals {
+  padding-top: 150px;
+}
+.section-newArrivals__box,
+.section-ctegories__box {
+  display: flex;
+  margin-bottom: 30px;
+}
+.section-newArrivals__box-arrow {
+  margin-left: auto;
+}
+/* .section-newArrivals__arrow {
+  width: 18px;
+  height: 3px;
+  fill: black;
+} */
+.section-newArrivals__list {
+  display: flex;
+  margin-left: -30px;
+}
+
+.section-newArrivals__list .section-newArrivas__item {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+}
+
+.section-newArrivas__item {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+  border-radius: 0px 0px 4px 4px;
+}
+.section-newArrivas__item-photo {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 440px;
+  }
+.section-newArrivas__item-shop {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.29;
+  color: #000000;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.section-newArrivas__item-price {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.29;
+  color: #000000;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+.section-newArrivas__item-title {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.3;
+  color: #000000;
+  margin-top: 15px;
+  margin-left: 15px;
+  text-align: center;
+}
+
+
+                              /* section-tShirt */
+.section-tShirt {
+  padding-top: 180px;
+}
+.section-tShirt__list {
+  display: flex;
+  justify-content: center;
+}
+.section-tShirt__list-item {
+  position: relative;
+}
+.section-tShirt__list-item-title {
+  position: absolute;
+  top: 15px;
+  left: 40px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 1.36;
+  color: #000000;
+}
+.section-tShirt__list-item-disc {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.25;
+  color: #000000;
+}
+                                   /* section-ctegories */
+.section-ctegories {
+  padding-top: 50px;
+}
+.section-ctegories__list {
+display: flex;
+justify-content: center;
+}
+.section-categories__list-item {
+  margin-right: 30px;
+  position: relative;
+  height: 580px;
+  }
+.section-categories__list-item:last-child {
+  margin-right: 0px;
+}
+.section-categories__list-item-photo {
+  width: 100%;
+  height: 100%;
+}
+.section-categories__list-item-title {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 1.27;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+                                           /* section-books */
+.section-books {
+  padding-top: 100px;
+}
+.section-books__list {
+  display: flex;
+  justify-content: center;
+}
+.section-books__list-item {
+  position: relative;
+}
+.section-books__list-title {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.25;
+  color: #000000;
+}
+.section-books__list-photo {
+  width: 100%;
+}
+/* section-etnical */
+.section-etnical {
+  padding-top: 120px;
+}
+.section-etnical__desc {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 43px;
+  line-height: 1.4;
+  color: #000000;
+  width: 629px;
+  margin-left: 64px;
+  margin-bottom: 84px;
+}
+.section-etnical__list {
+  display: flex;
+  margin-left: 170px;
+}
+.section-etnical__list .section-etnical__list-item {
+  margin-right: 50px;
+}
+.section-etnical__list .section-etnical__list-item:last-child {
+  margin-right: 0px;
+}
+.section-etnical__list-item-figure {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.5;
+  color: #000000;
+  margin-top: 50px;
+  margin-left: -64px;
+}
+.section-etnical-learn-more {
+  margin-top: 55px;
+  margin-left: 64px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.25;
+  text-transform: uppercase;
+  color: #000000;
+}
+.section-etnical__list-desc {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.25;
+  color: #000000;
+  margin-top: 72px;
+  margin-left: -64px;
+}
+                                     /* section-rings */
+.section-rings {
+  padding-top: 50px;
+}
+.section-rings__list {
+  display: flex;
+}
+
+/* section-subscribe */
+.section-subscribe {
+  background-image: url(/image/optimaPhoto/section-subscribe/subscribe.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1600px 788px;
+}
+.section-subscribe__list {
+  display: flex;
+}
+/* section-footer */
+/* .section-footer {
+ padding-left: 64px;
+ padding-right: 64px;
+} */
+.section-footer__list {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  /* grid-gap: 50px; */
+}
+.footer__title {
+  margin-bottom: 20px;
+}
+.footer-shop__list {
+  column-count: 2;
+  margin-right: 350px;
+  
+}
