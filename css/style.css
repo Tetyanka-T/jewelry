@@ -80,7 +80,7 @@ color: #000000;
   margin-right: 0;
 }
 .heder-section__title {
-  margin-left: 300px;
+  margin-left: 150px;
 }
 
 .header-section__nav-list {
@@ -124,10 +124,11 @@ color: #000000;
                                 /* section-discribe */
 .section-discribe {
   padding-top: 116px;
+  padding-left: 64px;
 }                             
 .section-discribe__cont {
   display: flex;
-  
+ 
 }
 .section-discribe__title {
   margin-right: auto;
@@ -145,16 +146,18 @@ color: #000000;
   line-height: 1.25;
   font-size: 20px;
   color: #000000;
-}
+  }
 
                                 /* .section-newArrivals */
 .section-newArrivals {
   padding-top: 150px;
+  padding-left: 64px;
 }
 .section-newArrivals__box,
 .section-ctegories__box {
   display: flex;
   margin-bottom: 30px;
+
 }
 .section-newArrivals__box-arrow {
   margin-left: auto;
@@ -166,18 +169,24 @@ color: #000000;
 } */
 .section-newArrivals__list {
   display: flex;
-  margin-left: -30px;
+  justify-content: center;
+  /* margin-left: -30px; */
 }
 
 .section-newArrivals__list .section-newArrivas__item {
-  flex-basis: calc(100% / 3 - 30px);
-  margin-left: 30px;
+  /* flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px; */
+  margin-right: 30px;
+}
+.section-newArrivals__list .section-newArrivas__item:last-child  {
+  margin-right: 0;
 }
 
 .section-newArrivas__item {
   background: #ffffff;
   box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
   border-radius: 0px 0px 4px 4px;
+  width: 360px;
 }
 .section-newArrivas__item-photo {
   display: block;
@@ -250,6 +259,7 @@ color: #000000;
                                    /* section-ctegories */
 .section-ctegories {
   padding-top: 50px;
+  padding-left: 64px;
 }
 .section-ctegories__list {
 display: flex;
@@ -302,9 +312,10 @@ justify-content: center;
 .section-books__list-photo {
   width: 100%;
 }
-/* section-etnical */
+                                         /* section-etnical */
 .section-etnical {
   padding-top: 120px;
+  padding-left: 64px;
 }
 .section-etnical__desc {
   font-family: 'Roboto';
@@ -313,12 +324,11 @@ justify-content: center;
   line-height: 1.4;
   color: #000000;
   width: 629px;
-  margin-left: 64px;
   margin-bottom: 84px;
 }
 .section-etnical__list {
   display: flex;
-  margin-left: 170px;
+  margin-left: 80px;
 }
 .section-etnical__list .section-etnical__list-item {
   margin-right: 50px;
@@ -337,7 +347,6 @@ justify-content: center;
 }
 .section-etnical-learn-more {
   margin-top: 55px;
-  margin-left: 64px;
   font-family: 'Roboto';
   font-weight: 400;
   font-size: 18px;
@@ -354,30 +363,103 @@ justify-content: center;
   color: #000000;
   margin-top: 72px;
   margin-left: -64px;
+  width: 360px;
 }
                                      /* section-rings */
 .section-rings {
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 .section-rings__list {
   display: flex;
+  justify-content: center;
 }
-
-/* section-subscribe */
+.section-rings__list-item {
+  position: relative;
+}
+.section-rings__list-item-hesh {
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 18px;
+line-height: 1.25;
+color: #000000;
+position: absolute;
+top: 67px;
+left: 50px;
+}
+.section-rings__list-item-title {
+ font-family: 'Roboto';
+ font-weight: 400;
+ font-size: 48px;
+ line-height: 1.25;
+ color: #000000;
+ position: absolute;
+ top: 47px;
+ left: 50px;
+}
+.section-rings__list-item-shop {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.25;
+  color: #000000;
+  position: absolute;
+  bottom: 64px;
+  left: 50px;
+}
+.section-rings__list-item-photo {
+  width: 100%;
+}
+                                 /* section-subscribe */
 .section-subscribe {
+  padding: 100px 64px;
   background-image: url(/image/optimaPhoto/section-subscribe/subscribe.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 1600px 788px;
+  background-size: 1600px 550px;
 }
 .section-subscribe__list {
   display: flex;
+  
 }
-/* section-footer */
-/* .section-footer {
+.section-subscribe__list .section-subscribe__list-item {
+  margin-right: 250px;
+}
+.section-subscribe__list .section-subscribe__list-item:last-child {
+  margin-right: 0px;
+}
+.section-subscribe__list-item {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.25;
+  color: #FFFFFF;
+}
+.section-subscribe__subscribe {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 1.3;
+  color: #FFFFFF;
+  margin-top: 150px;
+  width: 304px;
+}
+.section-subscribe__news {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.25;
+  color: #FFFFFF;
+  margin-top: 32px;
+}
+
+                                         /* section-footer */
+.section-footer {
+  padding-top: 100px;
  padding-left: 64px;
  padding-right: 64px;
-} */
+}
 .section-footer__list {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr;
