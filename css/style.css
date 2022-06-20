@@ -62,6 +62,7 @@ img {
 .header-section__menu {
   display: flex;
   padding: 35px;
+ 
 }
 .header-section__nav {
 display: flex;
@@ -80,7 +81,10 @@ color: #000000;
   margin-right: 0;
 }
 .heder-section__title {
-  margin-left: 150px;
+  margin-left: 400px;
+  
+ 
+ 
 }
 
 .header-section__nav-list {
@@ -328,6 +332,7 @@ justify-content: center;
 }
 .section-etnical__list {
   display: flex;
+  justify-content: center;
   margin-left: 80px;
 }
 .section-etnical__list .section-etnical__list-item {
@@ -414,9 +419,10 @@ left: 50px;
 .section-subscribe {
   padding: 100px 64px;
   background-image: url(/image/optimaPhoto/section-subscribe/subscribe.jpg);
-  background-position: center;
+  /* background-position: center; */
   background-repeat: no-repeat;
-  background-size: 1600px 550px;
+  /* background-size: 1600px 550px; */
+  background-size: cover;
 }
 .section-subscribe__list {
   display: flex;
@@ -467,9 +473,18 @@ left: 50px;
 }
 .footer__title {
   margin-bottom: 20px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.39;
+  color: #000000;
 }
 .footer-shop__list {
   column-count: 2;
   margin-right: 350px;
-  
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.25;
+  color: #000000;
 }
