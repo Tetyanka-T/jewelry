@@ -5,266 +5,276 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>jewelry store</title>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="header-section__advt">
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__advt">
                 Free shipping on orders over $150 over Canada
             </div>
-            <div class="header-section__menu">
-                <nav class="header-section__nav">
-                    <ul class="header-section__nav-list list">
-                        <li class="header-section__nav-item">
+            <div class="header__container">
+                <div class="header__logo">
+                    <a href="/">MYEL</a>
+                </div>
+            
+                <button type="button" class="header__burger" aria-expanded="false" aria-controls="menu-container">
+                    <svg class="header__burger__icon" width="20" height="20" aria-label="Переключатель мобильного меню">
+                        <use  class="header__burger__icon-menu" href="./image/svg/sprite.svg#menu-right"></use>
+                        <use  class="header__burger__icon-cross" href="./image/svg/sprite.svg#cancel"></use>
+                    </svg> 
+                </button>
+                <nav class="header__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
                             Shop by
                         </li>
-                        <li class="header-section__nav-item">
+                        <li class="nav__item">
                             Collections
                         </li>
-                        <li class="header-section__nav-item">
+                        <li class="nav__item">
                             About us
                         </li>
                     </ul>
-                        <h1 class="heder-section__title">Jewelry</h1>
+                    <div class="logo">
+                        <a href="/">MYEL</a>
+                    </div>
+                    <ul class="header__user">
+                        <li class="user__item">
+                            Login
+                        </li>
+                        <li class="user__item">
+                            Fr | En
+                        </li>
+                        <li class="user__item">
+                            0
+                        </li>
+                    </ul>
                 </nav>
-                <ul class="header-section__list list">
-                    <li class="header-section__list-item">
-                        Login
-                    </li>
-                    <li class="header-section__list-item">
-                        Fr | En
-                    </li>
-                    <li class="header-section__list-item">
-                        0
-                    </li>
-                </ul>
             </div>
-        </div>
-
-    </header>
+        </header>
     <main>
         <section class="section-hero">
-            <div class="container">
-                <ul class="section-hero__list list">
-                    <li class="section-hero__list-item">
-                        <img src="./image/optimaPhoto/section-hero/rings-on-the-hands.jpg" alt="rings-on-the-hands">
-                        <p class="section-hero__list-describe">A MODERN SIGNET RING</p>
-                    </li>
-                    <li class="section-hero__list-item">
-                        <img src="./image/optimaPhoto/section-hero/rings-on-a-branch.jpg" alt="rings-on-a-branch" >
-                        
-                    </li>
-                    <li class="section-hero__list-item">
-                        <img src="./image/optimaPhoto/section-hero/decorations.jpg" alt="jewelry on a girl">
-                        <p class="section-hero__list-describe">STACK THE NECKLACES</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="section-discribe">
-            <div class="container">
-                <div class="section-discribe__cont">
-                    <h2 class="section-discribe__title">
-                        Responsible high-end jewelry made in Montreal. MYEL creations are designed to stand the test of time.
-                    </h2>
-                    <p class="section-discribe__text">SHOP MYEL</p>
-                </div>
-                
-                <p class="section-discribe__text">
-                    Spontaneous, delicate, audacious, our jewels distinguish themselves with their elegance.
-                </p>
-            </div>
-        </section>
-        <section class="section-newArrivals">
-            <div class="container">
-                <div class="section-newArrivals__box">
-                    <h3 class="section-title"> SHOP NEW ARRIVALS</h3>
-                    <div class="section-newArrivals__box-arrow">
-                        <svg class="section-newArrivals__arrow" width="20px" height="5px">
-                            <use href="./image/svg/arrow-left.svg"></use>
-                        </svg>
-                        <svg class="section-newArrivals__arrow" width="20px" height="5px">
-                            <use href="./image/svg/arrow-right.svg"></use>
-                        </svg>
-                    </div>  
-                </div>
-                <ul class="section-newArrivals__list list">
-                    <li class="section-newArrivas__item">
-                        <img class="section-newArrivas__item-photo" src="./image/optimaPhoto/newArriv-shop/necklace-silver.jpg" alt="necklace-silver">         
-                        <h4 class="section-newArrivas__item-title">Stein Necklace with Aquamarine</h4>
-                        <p class="section-newArrivas__item-shop">Shop now</p>
-                        <p class="section-newArrivas__item-price">310$</p>
-                    </li>
-                    <li class="section-newArrivas__item">
-                        <img class="section-newArrivas__item-photo" src="./image/optimaPhoto/newArriv-shop/pendant-in-yellow.jpg" alt="pendant-in-yellow" >
-                        <h4 class="section-newArrivas__item-title">Origines Pendant in Yellow Gold</h4>
-                        <p class="section-newArrivas__item-shop">Shop now</p>
-                        <p class="section-newArrivas__item-price">200$</p>
-                    </li>
-                    <li class="section-newArrivas__item">
-                        <img class="section-newArrivas__item-photo" src="./image/optimaPhoto/newArriv-shop/yellow-gold-chain.jpg" alt="yellow-gold-chain"> 
-                        <h4 class="section-newArrivas__item-title">Yellow gold chain</h4>
-                        <p class="section-newArrivas__item-shop">Shop now</p>
-                        <p class="section-newArrivas__item-price">280$</p>  
-                    </li>
-                </ul>
-            </div> 
-        </section>
-        <section class="section-tShirt">
-            <div class="container">
-                <ul class="section-tShirt__list list">
-                    <li class="section-tShirt__list-item">
-                        <img src="./image/optimaPhoto/section-Tshirt/tShirt-on.jpg" alt="tShirt-on a girl">
-                    </li>
-                    <li class="section-tShirt__list-item">
-                        <img src="./image/optimaPhoto/section-Tshirt/tShirt.jpg" alt="tShirt">
-                        <h3 class="section-tShirt__list-item-title">Bonne Mine t-shirt</h3>
-                        <p class="section-tShirt__list-item-disc">Support the fundraising campaign</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="section-ctegories">
-            <div class="container">
-                <div class="section-ctegories__box">
-                    <h3 class="section-title">Browse by categories</h3>
-                    <div class="section-newArrivals__box-arrow">
-                        <svg class="section-newArrivals__arrow" width="20px" height="5px">
-                            <use href="./image/svg/arrow-left.svg"></use>
-                        </svg>
-                        <svg class="section-newArrivals__arrow" width="20px" height="5px">
-                            <use href="./image/svg/arrow-right.svg"></use>
-                        </svg>
+            <div class="image-slider swiper">
+                <div class="image-slider__wrapper swiper-wrapper">
+                    <div class="image-slider__slide swiper-slide">
+                        <div class="image-slider__image">
+                            <img src="./image/optimaPhoto/section-hero/rings-on-the-hands.jpg" alt="rings-on-the-hands"/>
+                            <p class="section-hero__list-describe">A MODERN SIGNET RING</p>
+                        </div>
+                    </div>
+                    <div class="image-slider__slide swiper-slide">
+                        <div class="image-slider__image">
+                            <img src="./image/optimaPhoto/section-hero/rings-on-a-branch.jpg" alt="rings-on-a-branch"/>
+                        </div>
+                    </div>
+                    <div class="image-slider__slide swiper-slide">
+                        <div class="image-slider__image">
+                            <img src="./image/optimaPhoto/section-hero/decorations.jpg" alt="jewelry on a girl"/>
+                            <p class="section-hero__list-describe">STACK THE NECKLACES</p>
+                        </div>
                     </div>
                 </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-scrollbar"></div>
                 
-                <ul class="section-ctegories__list list">
-                    <li class="section-categories__list-item">
-                        <img class="section-categories__list-item-photo" src="./image/optimaPhoto/section-shop/rings.jpg" alt="rings">
-                        <p class="section-categories__list-item-title">Rings</p>
-                    </li>
-                    <li class="section-categories__list-item">
-                        <img class="section-categories__list-item-photo" src="./image/optimaPhoto/section-shop/bracelets.jpg" alt="bracelets" >
-                        <p class="section-categories__list-item-title">Bracelets</p>
-                    </li>
-                    <li class="section-categories__list-item">
-                        <img class="section-categories__list-item-photo" src="./image/optimaPhoto/section-shop/earrings.jpg" alt="earrings" >
-                        <p class="section-categories__list-item-title">Earrings</p>
-                    </li>
-                </ul>
-            </div> 
+            </div>
+        </section>
+        <section class="section-discribe container">
+            <div class="discribe__cont">
+                <h2 class="discribe__title">
+                    Responsible high-end jewelry made in Montreal. MYEL creations are designed to stand the test of time.
+                </h2>
+                <a href="#" class="discribe__link">SHOP MYEL</a>
+            </div>
+            <p class="discribe__text">
+                Spontaneous, delicate, audacious, our jewels distinguish themselves with their elegance.
+            </p>
+        </section>
+        <section class="section-newArrivals">
+            <h3 class="section-title container">SHOP NEW ARRIVALS</h3>
+            <div class="image-slider-newArrivals swiper">
+                <div class="image-slider-newArrivals__wrapper swiper-wrapper">
+                    <div class="image-slider-newArrivals__slide swiper-slide">
+                        <div class="image-slider-newArrivals__image">
+                            <img class="newArrivas__photo" src="./image/optimaPhoto/newArriv-shop/necklace-silver.jpg" alt="necklace-silver">         
+                            <div class="newArrivas__thumb">
+                                <h4 class="newArrivas__title">Stein Necklace with Aquamarine</h4>
+                                <a class="newArrivas__link">Shop now</a>
+                                <p class="newArrivas__price">310$</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image-slider-newArrivals__slide swiper-slide">
+                        <div class="image-slider-newArrivals__image">
+                            <img class="newArrivas__photo" src="./image/optimaPhoto/newArriv-shop/pendant-in-yellow.jpg" alt="pendant-in-yellow" >
+                            <div class="newArrivas__thumb">
+                                <h4 class="newArrivas__title">Origines Pendant in Yellow Gold</h4>
+                                <a class="newArrivas__link">Shop now</a>
+                                <p class="newArrivas__price">200$</p>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="image-slider-newArrivals__slide swiper-slide">
+                        <div class="image-slider-newArrivals__image">
+                            <img class="newArrivas__photo" src="./image/optimaPhoto/newArriv-shop/yellow-gold-chain.jpg" alt="yellow-gold-chain"> 
+                            <div class="newArrivas__thumb">
+                                <h4 class="newArrivas__title">Yellow gold chain</h4>
+                                <a class="newArrivas__link">Shop now</a>
+                                <p class="newArrivas__price">280$</p>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+   
+        </section>
+        <section class="section-tShirt">
+            <ul class="tShirt__list">
+                <li class="tShirt__list-item">
+                    <img src="./image/optimaPhoto/section-Tshirt/tShirt-on.jpg" alt="tShirt-on a girl">
+                </li>
+                <li class="tShirt__list-item">
+                    <h3 class="tShirt__list-item-title">Bonne Mine t-shirt</h3>
+                    <img src="./image/optimaPhoto/section-Tshirt/tShirt.jpg" alt="tShirt">
+                    <p class="tShirt__list-item-disc">Support the fundraising campaign</p>
+                </li>
+            </ul>
+        </section>
+        <section class="section-categories">
+            <div class="section-ctegories__box container">
+                <h3 class="section-title">Browse by categories</h3>
+                <div class="newArrivals__box-arrow">
+                    <svg class="newArrivals__arrow" width="40px" height="40px">
+                        <use href="./image/svg/sprite.svg#arrow-left"></use>
+                    </svg>
+                    <svg class="section-newArrivals__arrow" width="40px" height="40px">
+                        <use href="./image/svg/sprite.svg#arrow-right"></use>
+                    </svg>
+                </div>
+            </div>
+            <ul class="categories__list">
+                <li class="categories__list-item">
+                    <img class="categories__list-item-photo" src="./image/optimaPhoto/section-shop/rings.jpg" alt="rings">
+                    <p class="categories__list-item-title">Rings</p>
+                </li>
+                <li class="categories__list-item">
+                    <img class="categories__list-item-photo" src="./image/optimaPhoto/section-shop/bracelets.jpg" alt="bracelets" >
+                    <p class="categories__list-item-title">Bracelets</p>
+                </li>
+                <li class="categories__list-item">
+                    <img class="categories__list-item-photo" src="./image/optimaPhoto/section-shop/earrings.jpg" alt="earrings" >
+                    <p class="categories__list-item-title">Earrings</p>
+                </li>
+               </ul>
         </section>
         <section class="section-books">
-            <div class="container">
-                <ul class="section-books__list list">
-                    <li class="section-books__list-item">
-                        <img class="section-books__list-photo" src="./image/optimaPhoto/section-books/stack-of-books.jpg" alt="stack-of-books">
-                        <p class="section-books__list-title">One-of-a-kind books</p>
+                <ul class="books__list">
+                    <li class="books__item">
+                        <img class="books__item-photo" src="./image/optimaPhoto/section-books/stack-of-books.jpg" alt="stack-of-books">
+                        <p class="books__item-title">One-of-a-kind books</p>
                     </li>
-                    <li class="section-books__list-item">
-                        <img class="section-books__list-photo" src="./image/optimaPhoto/section-books/book.jpg"  alt="book">
+                    <li class="books__item">
+                        <img class="books__item-photo" src="./image/optimaPhoto/section-books/book.jpg"  alt="book">
                     </li>
                 </ul>
-            </div>
         </section>
-        <section class="section-etnical">
-            <div class="container">
-                <p class="section-etnical__desc">Together, we can build a brighter tomorrow. We use ethical stones and the most eco-responsible raw material possible.</p>
-                <ul class="section-etnical__list list">
-                    <li class="section-etnical__list-item">
-                        <img src="./image/hands.png" alt="hands"></img>
-                        <p class="section-etnical__list-item-figure">01</p>
-                        <p class="section-etnical__list-desc">Our jewelry is designed and produced locally in Montreal.</p>
+        <section class="section-etnical container">
+                <p class="etnical__desc">Together, we can build a brighter tomorrow. We use ethical stones and the most eco-responsible raw material possible.</p>
+                <ul class="etnical__list">
+                    <li class="etnical__item">
+                        <img src="./image/hands.png" alt="hands" class="etnical__item-img"/>
+                        <p class="etnical__item-figure">01</p>
+                        <p class="etnical__item-text">Our jewelry is designed and produced locally in Montreal.</p>
                     </li>
-                    <li class="section-etnical__list-item">
-                        <img src="./image/branch.png" alt="branch"></img>
-                        <p class="section-etnical__list-item-figure">02</p>
-                        <p class="section-etnical__list-desc">MYEL is a member of the Ethical Metalsmith Association.</p>
+                    <li class="etnical__item">
+                        <img src="./image/branch.png" alt="branch" class="etnical__item-img"/>
+                        <p class="etnical__item-figure">02</p>
+                        <p class="etnical__item-text">MYEL is a member of the Ethical Metalsmith Association.</p>
                     </li>
-                    <li class="section-etnical__list-item">
-                        <img src="./image/flower.png" alt="flower"></img>
-                        <p class="section-etnical__list-item-figure">03</p>
-                        <p class="section-etnical__list-desc">We create high end jewelry, designed to stand the test of time.</p>
+                    <li class="etnical__item">
+                        <img src="./image/flower.png" alt="flower" class="etnical__item-img"/>
+                        <p class="etnical__item-figure">03</p>
+                        <p class="etnical__item-text">We create high end jewelry, designed to stand the test of time.</p>
                     </li>
                 </ul>
-                <h4 class="section-etnical-learn-more">Learn More</h4>
-            </div>
+                <a class="etnical-link">Learn More</a>
         </section>
         <section class="section-rings">
-            <div class="container">
-                <ul class="section-rings__list list">
-                    <li class="section-rings__list-item">
-                        <p class="section-rings__list-item-hesh">#EVERYGRAMCOUNTS</p>
-                        <img class="section-rings__list-item-photo" src="./image/optimaPhoto/section-rings/rings.jpg" alt="rings">
+                <ul class="rings__list">
+                    <li class="rings__item">
+                        <p class="rings__item-hesh">#EVERYGRAMCOUNTS</p>
+                        <img class="rings__item-photo" src="./image/optimaPhoto/section-rings/rings.jpg" alt="rings">
                     </li>
-                    <li class="section-rings__list-item">
-                        <p class="section-rings__list-item-title">
+                    <li class="rings__item">
+                        <p class="rings__item-title">
                             Fairmined Gold: choose ethical gold
                         </p>
-                        <img class="section-rings__list-item-photo" src="./image/optimaPhoto/section-rings/ring.jpg">
-                        <p class="section-rings__list-item-shop">Shop Fairmined Gold</p>
+                        <img class="rings__item-photo" src="./image/optimaPhoto/section-rings/ring.jpg">
+                        <p class="rings__item-shop">Shop Fairmined Gold</p>
                     </li>
                 </ul>
-            </div>
         </section>
         <section class="section-subscribe">
-            <div class="container">
-                <ul class="section-subscribe__list list">
-                    <li class="section-subscribe__list-item">Exceptional Quality</li>
-                    <li class="section-subscribe__list-item">Fair Price</li>
-                    <li class="section-subscribe__list-item">Made in Montreal</li>
+                <ul class="subscribe__list container">
+                    <li class="subscribe__item">Exceptional Quality</li>
+                    <li class="subscribe__item">Fair Price</li>
+                    <li class="subscribe__item">Made in Montreal</li>
                 </ul>
-                <p class="section-subscribe__subscribe">Subscribe to our newsletter.</p>
-                <p class="section-subscribe__news">Receive exclusive news and special promo codes.</p>
-            </div>
+                <p class="subscribe__subscribe container">Subscribe to our newsletter.</p>
+                <p class="subscribe__news container">Receive exclusive news and special promo codes.</p>
         </section>
     </main>
     <footer class="section-footer">
-        <div class="container">
-            <ul class="section-footer__list list">
-                <li class="section-footer__list-item">
-                    <h5 class="footer__title">Shop By</h5>
-                    <ul class="footer-shop__list list">
-                        <li class="footer-shop__list-item">Necklaces</li>
-                        <li class="footer-shop__list-item">Earrings</li>
-                        <li class="footer-shop__list-item">Best Sellers</li>
-                        <li class="footer-shop__list-item">Rings</li>
-                        <li class="footer-shop__list-item">Bracelets</li>
-                        <li class="footer-shop__list-item">New Arrivals</li>
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <h5 class="footer__item-title">Shop By</h5>
+                    <ul class="footer__item-shop-list">
+                        <li class="item-shop-list__item">Necklaces</li>
+                        <li class="item-shop-list__item">Earrings</li>
+                        <li class="item-shop-list__item">Best Sellers</li>
+                        <li class="item-shop-list__item">Rings</li>
+                        <li class="item-shop-list__item">Bracelets</li>
+                        <li class="item-shop-list__item">New Arrivals</li>
                     </ul>
                 </li>
-                <li class="section-footer__list-item">
-                    <h5 class="footer__title">Support</h5>
-                    <ul class="footer__list list">
+                <li class="footer__item">
+                    <h5 class="footer__item-title">Support</h5>
+                    <ul class="footer__item-support-list">
                         <li>Product care</li>
                         <li>Returns, shipping & pricing</li>
                         <li>FAQ</li>
                     </ul>
                 </li>
-                <li class="section-footer__list-item">
-                    <h5 class="footer__title">Jewelry</h5>
-                    <ul class="footer__list list">
+                <li class="footer__item">
+                    <h5 class="footer__item-title">Jewelry</h5>
+                    <ul class="footer__item-jewelry-list">
                         <li>About</li>
                         <li>Journal</li>
                         <li>Ethical stones</li>
                         <li>Terms & privacy</li>
                     </ul>
                 </li>
-                <li>
-                    <h5 class="footer__title">Visit</h5>
-                    <ul class="footer__list list">
+                <li class="footer__item">
+                    <h5 class="footer__item-title">Visit</h5>
+                    <ul class="footer__item-contact-list">
                         <li>The Store</li>
                         <li>Contact</li>
                     </ul>
                 </li>           
             </ul>
-        </div>
-       
-   
     </footer>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/slider.js"></script>
 </body>
 </html>
