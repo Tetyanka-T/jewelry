@@ -431,12 +431,7 @@ img {
   margin: 0 auto;
 }
 .section-ctegories__box {
-  margin-bottom: 15px;
-}
-.newArrivals__box-arrow {
-  display: flex;
-  align-items: center;
-  justify-content: end;
+  margin-bottom: 20px;
 }
 .categories__list {
  margin: 0 auto;
@@ -717,7 +712,6 @@ left: 50px;
   margin-bottom: 10px;
   font-size: 22px;
   line-height: 1.39;
-
 }
 
 
