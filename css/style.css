@@ -715,7 +715,7 @@ left: 50px;
 
 .footer__item-title {
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1.39;
 
 }
@@ -728,7 +728,6 @@ left: 50px;
   .footer__list {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr;
-     /* grid-gap: 50px; */
   }
   .footer__item-shop-list {
     column-count: 2;
